@@ -1,0 +1,121 @@
+# Translation for the Reports plugin for Omeka.
+# Copyright (C) 2011 Roy Rosenzweig Center for History and New Media
+# This file is distributed under the same license as the Omeka package.
+# 
+# Translators:
+# Naosuke Okamoto, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka Classic\n"
+"Report-Msgid-Bugs-To: http://github.com/omeka/plugin-Reports/issues\n"
+"POT-Creation-Date: 2012-01-09 21:49-0500\n"
+"PO-Revision-Date: 2018-05-06 14:11+0000\n"
+"Last-Translator: Naosuke Okamoto\n"
+"Language-Team: Japanese (http://www.transifex.com/omeka/omeka/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ReportsPlugin.php:145
+msgid "Reports"
+msgstr "レポート一覧"
+
+#: ReportsPlugin.php:178
+msgid "Report"
+msgstr "レポート"
+
+#: controllers/IndexController.php:134
+msgid ""
+"The report cannot be saved.  Please check your report storage settings."
+msgstr "レポートは保存できません。 レポートの保存設定を確認してください。"
+
+#: models/Reports/Generator.php:205
+#, php-format
+msgid "Make sure that %s is exists and is writeable."
+msgstr "%sが存在し、書き込み可能であることを確認してください。"
+
+#. //www.gnu.org/licenses/gpl-3.0.txt GNU GPLv3
+#: views/admin/index/add.php:13 views/admin/index/browse.php:10
+#: views/admin/index/browse.php:63 views/admin/index/browse.php:72
+msgid "Add a Report"
+msgstr "レポートの追加"
+
+#: views/admin/index/add.php:34
+msgid "Add Report"
+msgstr "レポートの追加"
+
+#: views/admin/index/browse.php:2
+msgid "Browse Reports"
+msgstr "レポートを見る"
+
+#: views/admin/index/browse.php:21 views/admin/index/show.php:52
+msgid "ID"
+msgstr "ID"
+
+#: views/admin/index/browse.php:26
+msgid "Filter"
+msgstr "フィルター"
+
+#: views/admin/index/browse.php:27
+msgid "Generate a New File"
+msgstr "新しいファイルを生成"
+
+#: views/admin/index/browse.php:51
+msgid "Edit Filter"
+msgstr "フィルターを編集"
+
+#: views/admin/index/browse.php:66
+msgid "There are no reports on this page."
+msgstr "今ページにはレポートがありません。"
+
+#: views/admin/index/browse.php:66
+msgid "View All Reports"
+msgstr "全てのレポートを表示"
+
+#: views/admin/index/browse.php:69
+msgid "You have no reports."
+msgstr "レポートがありません。"
+
+#: views/admin/index/browse.php:71
+msgid "Get started by adding your first report."
+msgstr "最初のレポートを追加して始めましょう。"
+
+#: views/admin/index/query.php:14
+#, php-format
+msgid "Edit Filter for '%s' | Reports"
+msgstr " '%s' のフィルターを編集| レポート"
+
+#: views/admin/index/show.php:14
+#, php-format
+msgid "Report #%s | Reports"
+msgstr "レポート #%s | レポート"
+
+#: views/admin/index/show.php:19
+msgid "Report Details"
+msgstr "レポート詳細"
+
+#: views/admin/index/show.php:37
+msgid "Generated Files"
+msgstr "生成したファイル"
+
+#: views/admin/index/show.php:43
+msgid "Generate"
+msgstr "生成"
+
+#: views/admin/index/show.php:48
+msgid "You have not yet generated any files."
+msgstr "生成したファイルがありません。"
+
+#: views/admin/index/show.php:55
+msgid "Status"
+msgstr "状態"
+
+#: views/admin/index/show.php:56
+msgid "Actions"
+msgstr "アクション"
+
+#: views/admin/index/show.php:66
+msgid "Download"
+msgstr "ダウンロード"
