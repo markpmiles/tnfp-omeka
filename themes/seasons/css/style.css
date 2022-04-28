@@ -425,6 +425,12 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     vertical-align: top;
     margin: auto;
   }
+  #site-title-2 img {
+    max-width: calc(100% - 16px);
+    height: auto;
+    vertical-align: top;
+    margin: auto;
+  }
 
   #search-container {
     /* padding: 0 16px 24px; */
