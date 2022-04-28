@@ -1602,7 +1602,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
 
   /* !---------- Summer Styles ---------- */
   .summer body {
-    background-color:#708559;
+    background-color: white;
     color:#666666
     }
 
@@ -1670,7 +1670,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
 .summer .secondary-nav .current a,
 .summer .secondary-nav a.current,
 .summer .exhibit-section-nav .current a {
-    background-color: #FDFFE2;
+    background-color: white;
   }
   .summer #home #content > div {
     border-color: #8ECAC8;
