@@ -1603,7 +1603,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   /* !---------- Summer Styles ---------- */
   .summer body {
     background-color:#3C8F8C;
-    color:#708559
+    color:#666666
     }
 
   .summer h1, .summer #site-title a {
@@ -1620,16 +1620,16 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color: #9ecdb2;
   }
   .summer a:visited {
-    color: #F09999;
+    color: #992640;
   }
   .summer a:hover, .summer a:active, .summer a:focus {
     color: #FF0000;
   }
   .summer header {
-    background-color: #fff;
+    background-color: white;
   }
   .summer nav.top {
-    background-color: #FCF283;
+    background-color: #99876F;
   }
   .summer nav.top li:hover a {
     color: #3C8F8C;
@@ -1646,7 +1646,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     background-color: rgba(0, 0, 0, 0.05);
   }
   .summer nav.top .sub-nav {
-    background-color: #FCF283;
+    background-color: #99876F;
   }
   .summer nav.top .sub-nav li > a:link, .summer nav.top .sub-nav li > a:visited {
     color: #13BBBB;
