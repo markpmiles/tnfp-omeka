@@ -426,7 +426,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     margin: auto;
   }
   #site-title-2 img {
-    max-width: calc(100% - 16px);
+    max-width: calc(70% - 16px);
     height: auto;
     vertical-align: top;
     margin: auto;
