@@ -1,0 +1,12 @@
+2022-04-28T20:31:36+00:00 ERR (3): RuntimeException: zip extension is required to bundle report PDF files. in /var/www/html/plugins/Reports/models/Reports/Generator/PdfQrCode.php:95
+Stack trace:
+#0 /var/www/html/plugins/Reports/models/Reports/Generator.php(160): Reports_Generator_PdfQrCode->generateReport()
+#1 /var/www/html/plugins/Reports/models/Reports/GenerateJob.php(18): Reports_Generator->generate()
+#2 /var/www/html/application/libraries/Omeka/Job/Process/Wrapper.php(29): Reports_GenerateJob->perform()
+#3 /var/www/html/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run()
+#4 {main}
+2022-04-28T21:14:27+00:00 WARN (4): Error output from ImageMagick:
+convert: attempt to perform an operation not allowed by the security policy `PDF' @ error/constitute.c/IsCoderAuthorized/408.
+convert: no images defined `/tmp/fullsize_57aa81058bb4708ec8988a66c3763f19.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2022-04-28T21:14:27+00:00 ERR (3): ImageMagick failed with status code 1.
