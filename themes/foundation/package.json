@@ -1,0 +1,39 @@
+{
+  "name": "foundation-classic-theme",
+  "version": "1.2.1",
+  "description": "Omeka Classic theme using the ZURB Foundation toolkit.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "author": "Omeka Team <outreach@omeka.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omeka/theme-foundation-classic",
+    "email": "outreach@omeka.org"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.6.3",
+    "jquery": "^3.5.1",
+    "motion-ui": "~2.0.0",
+    "what-input": "^5.2.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^5.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 9"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zurb/foundation-sites-template.git"
+  },
+  "private": true
+}
