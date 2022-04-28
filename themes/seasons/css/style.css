@@ -1603,9 +1603,10 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
 
   /* !---------- Summer Styles ---------- */
   .summer body {
-    background-color: #3C8F8C;
-    color: #6A7E88;
-  }
+    background-color:#3C8F8C;
+    color:#708559
+    }
+
   .summer h1, .summer #site-title a {
     color: #13BBBB;
   }
@@ -1617,7 +1618,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color: #13BBBB;
   }
   .summer a:link {
-    color: #EB4C0F;
+    color: #9ecdb2;
   }
   .summer a:visited {
     color: #F09999;
@@ -1662,7 +1663,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color: #3C8F8C;
   }
   .summer #intro {
-    color: #EB4C0F;
+    color: #9ecdb2;
   }
   .summer #content,
 .summer #secondary-nav .current a,
@@ -1676,13 +1677,13 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     border-color: #8ECAC8;
   }
   .summer #item h1 {
-    color: #EB4C0F;
+    color: #9ecdb2;
   }
   .summer #content > h1 {
-    color: #EB4C0F;
+    color: #708559;
   }
   .summer #content h2 {
-    border-color: #ffe0e0;
+    border-color: #9ecdb2;
   }
   .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
 .summer #content #advanced-search-form > div, .summer #content #exhibit-pages {
@@ -1707,7 +1708,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     background-color: #8ECAC8;
   }
   .summer #content .items-nav a:link, .summer #content .items-nav a:visited {
-    color: #EB4C0F;
+    color: #9ecdb2;
   }
   .summer #content .items-nav a:active, .summer #content .items-nav a:hover {
     color: #FF0000;
@@ -1730,7 +1731,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     border-color: #8ECAC8;
   }
   .summer footer {
-    background-color: #3C8F8C;
+    background-color: #708559;
   }
   .summer footer p {
     color: #fff;
