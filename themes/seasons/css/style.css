@@ -1650,7 +1650,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     background-color: #99876F;
   }
   .summer nav.top .sub-nav li > a:link, .summer nav.top .sub-nav li > a:visited {
-    color: #13BBBB;
+    color: white;
   }
   .summer nav.top .sub-nav li > a:hover {
     color: #3C8F8C;
