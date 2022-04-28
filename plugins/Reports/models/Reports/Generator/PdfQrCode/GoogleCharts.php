@@ -21,37 +21,27 @@ class Reports_Generator_PdfQrCode_GoogleCharts
      * @return Zend_Pdf_Image
      */
     public function generate($data)
-{
-$temp = tempnam($this->_tempDir, self::TEMP_FILE_PREFIX);
-// Zend_Pdf_Image dies if lacking the correct file extension.
-$tempPng = $temp . ".png";
-rename($temp, $tempPng);
-$temp = $tempPng;
-$url = $this->_qrCodeUri($data);
-$config = array(
-'adapter' => 'Zend_Http_Client_Adapter_Proxy',
-'proxy_host' => '<Your Proxy IP>',
-'proxy_port' => <Your Proxy Port>,
-'proxy_user' => '',
-'proxy_pass' => ''
-);
-
-// Instantiate a client object
-$client = new Zend_Http_Client($url, $config);
-// $client = new Omeka_Http_Client($url);
-// $client->setMaxRetries(10);
-$response = $client->request('GET');
-if ($response->isSuccessful()) {
-file_put_contents($temp, $response->getBody());
-$image = Zend_Pdf_Image::imageWithPath($temp);
-unlink($temp);
-return $image;
-} else {
-throw new Zend_Http_Client_Exception(
-"Could not retrieve QR chart from Google."
-);
-}
-}
+    {
+        $temp = tempnam($this->_tempDir, self::TEMP_FILE_PREFIX);
+        // Zend_Pdf_Image dies if lacking the correct file extension.
+        $tempPng = $temp . ".png";
+        rename($temp, $tempPng);
+        $temp = $tempPng;
+        $url = $this->_qrCodeUri($data);
+        $client = new Omeka_Http_Client($url);
+        $client->setMaxRetries(10);
+        $response = $client->request('GET');
+        if ($response->isSuccessful()) {
+            file_put_contents($temp, $response->getBody());
+            $image = Zend_Pdf_Image::imageWithPath($temp);
+            unlink($temp);
+            return $image;
+        } else {
+            throw new Zend_Http_Client_Exception(
+                "Could not retrieve QR chart from Google."
+            );
+        }
+    }
 
     /**
      * Generate a URI to a QR code for the specified item using the Google
