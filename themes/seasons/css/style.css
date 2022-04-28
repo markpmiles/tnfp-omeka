@@ -427,7 +427,8 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   }
 
   #search-container {
-    padding: 0 16px 24px;
+    /* padding: 0 16px 24px; */
+    display: none;
   }
   #search-container:after {
     content: "";
