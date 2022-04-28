@@ -425,6 +425,13 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     vertical-align: top;
     margin: auto;
   }
+
+  #site-title {
+    float: right;
+    margin: 0;
+    padding: 24px 0;
+  }
+
   #site-title-2 img {
     max-width: calc(70% - 16px);
     height: auto;
