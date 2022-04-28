@@ -2214,7 +2214,7 @@ nav.top .nav-item > a.open {
     width: 32.2033898305%;
     margin-right: 0;
     float: right;
-    display: inline;
+    display: none;
     margin-top: 30px;
   }
   #search-container input {
