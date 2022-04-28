@@ -1632,13 +1632,13 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     background-color: #99876F;
   }
   .summer nav.top li:hover a {
-    color: #3C8F8C;
+    color: white;
   }
   .summer nav.top a:link, .summer nav.top a:visited {
     color: white;
   }
   .summer nav.top a:active, .summer nav.top a:hover {
-    color: #3C8F8C;
+    color: white;
   }
   .summer nav.top .nav-item > a:focus,
 .summer nav.top .nav-item > a:hover,
@@ -1652,14 +1652,14 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color: white;
   }
   .summer nav.top .sub-nav li > a:hover {
-    color: #3C8F8C;
+    color: white;
   }
   .summer nav.top .sub-nav a:hover {
-    color: #3C8F8C;
+    color: white;
     background-color: rgba(0, 0, 0, 0.025);
   }
   .summer #top-nav a:focus {
-    color: #3C8F8C;
+    color: white;
   }
   .summer #intro {
     color: #9ecdb2;
