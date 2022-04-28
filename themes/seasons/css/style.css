@@ -438,13 +438,19 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   max-width: calc(70% - 16px);
   height: auto;
   vertical-align: bottom;
-  margin: 60px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
   #search-container {
     /* padding: 0 16px 24px; */
     display: none;
   }
+
+  .locale-switcher {
+    /* display: inline-block; */
+    float: right;
+}
+
   #search-container:after {
     content: "";
     display: block;
