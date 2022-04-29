@@ -53,6 +53,7 @@
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <div id="wrap">
         <header role="banner">
+            <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title">
                 <?php echo link_to_home_page(theme_logo()); ?>
             </div>
@@ -66,7 +67,6 @@
                 <?Php echo search_form(); ?>
                 <?php endif; ?>
             </div>
-            <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
         </header>
 
         <nav id="top-nav" class="top" role="navigation">
