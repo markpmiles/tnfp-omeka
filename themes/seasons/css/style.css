@@ -199,9 +199,15 @@ th {
   .show #primary > .element-set {
     padding: 0;
     margin: 0;
-    border-style: none;
+    border-style: none !important;
     text-align: center;
+    box-shadow: none !important;
   }
+
+  .show #primary > .item-file.image-jpeg {
+    border-style: none !important;
+    box-shadow: none !important;
+}
 
 
   .show #primary > div > *:first-child, .show #content #sidebar > div > *:first-child {
