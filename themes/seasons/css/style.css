@@ -432,7 +432,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     /* float: right; */
     /* margin: 40px 0 0 0; */
     /* padding: 100px 0; */
-    max-width: 700px;
+    max-width: 600px;
     display: inline;
 }
 
