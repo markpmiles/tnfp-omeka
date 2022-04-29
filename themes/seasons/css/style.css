@@ -451,6 +451,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   .locale-switcher {
     /* display: inline-block; */
     float: right;
+    margin: 0px;
 }
 
   #search-container:after {
