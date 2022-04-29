@@ -1638,8 +1638,8 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     }
 
   .summer #content > .element-set {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   .summer #dublin-core-title{
