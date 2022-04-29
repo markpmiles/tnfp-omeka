@@ -1637,8 +1637,9 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color:#666666
     }
 
-  .summer h1, .summer #site-title a {
-    color: white;
+    .summer h1, .summer #site-title a {
+      color: white;
+      margin: 0 calc(15%) 0 0;
   }
   .summer input[type=submit], .summer button, .summer .button, .summer .show-advanced.button {
     background-color: #8ECAC8;
