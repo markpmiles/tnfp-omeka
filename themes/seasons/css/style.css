@@ -195,6 +195,7 @@ th {
     margin-bottom: 18px;
     box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
   }
+  
   .show #primary > .element-set {
     padding: 0;
     margin: 0;
@@ -202,6 +203,7 @@ th {
     text-align: center;
     box-shadow: none !important;
   }
+
   .show #primary > .item-file.image-jpeg {
     box-shadow: none !important;
   }
