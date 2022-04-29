@@ -1637,6 +1637,11 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color:#666666
     }
 
+  .summer #content > .element-set {
+    padding: 0;
+    margin: 0;
+  }
+
   .summer #dublin-core-title{
     display: none;
   }
