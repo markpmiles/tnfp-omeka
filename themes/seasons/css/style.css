@@ -200,7 +200,7 @@ th {
     margin: 0;
     border-style: none;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
   }
 
 
