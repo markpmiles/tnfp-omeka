@@ -438,7 +438,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
 
 #site-title-2 img {
   max-width: calc(70% - 16px);
-  height: auto;
+  max-height: 60px;
   vertical-align: bottom;
   margin: 50px 0 0 0;
 }
