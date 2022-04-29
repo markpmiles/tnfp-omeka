@@ -2267,10 +2267,10 @@ nav.top .nav-item > a.open {
   }
 
   /* !---------- Content --------- */
-  header, nav.top, #content, footer {
+  /* header, nav.top, #content, footer {
     padding-left: 6.7796610169%;
     padding-right: 6.7796610169%;
-  }
+  } */
   header:after, nav.top:after, #content:after, footer:after {
     content: "";
     display: table;
