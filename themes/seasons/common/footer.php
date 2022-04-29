@@ -4,12 +4,13 @@
 
         <div id="custom-footer-text">
             <?php if ( $footerText = get_theme_option('Footer Text') ): ?>
-            <p><?php echo $footerText; ?></p>
+            <p><img src="/files/theme_uploads/HmTN_Logo_2Color_RGB_Web.jpg" style="width: 100px;">
+            <?php echo $footerText; ?></p>
             <?php endif; ?>
             <?php if ((get_theme_option('Display Footer Copyright') == 1) && $copyright = option('copyright')): ?>
                 <?php echo $copyright; ?>
             <?php endif; ?>
-            <img src="/files/theme_uploads/HmTN_Logo_2Color_RGB_Web.jpg" style="width: 100px;">
+            
         </div>
 
         <!-- <p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p> -->
