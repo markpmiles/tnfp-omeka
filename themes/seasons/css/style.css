@@ -417,7 +417,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     line-height: 48px;
     font-weight: 300;
     text-align: center;
-    margin: 0 calc(50%) 0 0;
+    /* margin: 0 calc(50%) 0 0; */
     padding: 24px 0;
   }
 
@@ -2111,7 +2111,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   #site-title {
     width: 99%;
     float: left;
-    margin-right: 1.6949152542%;
+    /* margin-right: 1.6949152542%; */
     display: inline;
     text-align: left;
   }
