@@ -578,9 +578,9 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   footer {
     padding: 24px 0 0 16px;
   }
-  footer p {
+  /* footer p {
     padding-bottom: 24px;
-  }
+  } */
   footer:empty {
     display: none;
   }
