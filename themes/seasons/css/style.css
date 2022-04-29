@@ -647,14 +647,14 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   #content > .element {
     border-bottom: 0;
   }
-  /* #content .element-set div {
-    padding-bottom: 12px;
+  #content .element-set div {
+    padding-bottom: 0;
     margin-bottom: 0;
   }
   #content .element-set div:only-of-type, #content .element-set div:last-of-type {
     border-bottom: 0;
-    padding-bottom: 6px;
-  } */
+    padding-bottom: 0;
+  }
   #content .item-meta {
     padding-bottom: 0;
   }
@@ -1084,12 +1084,12 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     border-bottom: 0;
     margin-bottom: 0;
   }
-  /* .collections #content .element-set .element {
-    margin-bottom: 24px;
-  } */
-  /* .collections #content .element-set .element:last-of-type {
+  .collections #content .element-set .element {
     margin-bottom: 0;
-  } */
+  }
+  .collections #content .element-set .element:last-of-type {
+    margin-bottom: 0;
+  }
   .collections #collection-items .item {
     border-top: 1px solid #dfe2e2;
     margin: 0 -16px;
