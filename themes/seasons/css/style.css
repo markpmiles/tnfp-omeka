@@ -1665,6 +1665,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   }
   .summer nav.top li:hover a {
     color: white;
+    font-size: 20px;
   }
   .summer nav.top a:link, .summer nav.top a:visited {
     color: white;
