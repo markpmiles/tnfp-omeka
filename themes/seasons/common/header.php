@@ -50,25 +50,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-20G58RYVMD"></script>
     <script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2173f96aa13172cb64293f93de036e35afa5389f
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         // TNFP Key
         gtag('config', 'G-20G58RYVMD');
-<<<<<<< HEAD
-=======
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-20G58RYVMD');
->>>>>>> 9ffaf4e01e4a95175b68d9bfdde65235e6d95fd9
-=======
->>>>>>> 2173f96aa13172cb64293f93de036e35afa5389f
     </script>
 </head>
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
