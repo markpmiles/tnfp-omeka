@@ -56,7 +56,7 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title">
                 <?php echo link_to_home_page(theme_logo()); ?>
-                <img src="/files/theme_uploads/stories-logo-white.png">
+                <img id="stories" src="/files/theme_uploads/stories-logo-white.png">
             </div>
             <!-- <div id="site-title-2">
                 <img src="/files/theme_uploads/stories-logo-white.png">
