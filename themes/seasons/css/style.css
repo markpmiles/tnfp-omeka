@@ -199,13 +199,8 @@ th {
   .show #primary > .element-set {
     padding: 0;
     margin: 0;
-    border-style: none !important;
+    border-style: none;
     text-align: center;
-    box-shadow: none !important;
-  }
-
-  .show #primary > .item-file.image-jpeg {
-    box-shadow: none !important;
   }
 
 
@@ -471,7 +466,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   .locale-switcher {
     /* display: inline-block; */
     float: right;
-    margin: 0px;
+    margin: 15px;
 }
 
   #search-container:after {
