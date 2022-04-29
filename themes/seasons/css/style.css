@@ -417,7 +417,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     line-height: 48px;
     font-weight: 300;
     text-align: center;
-    margin: 0;
+    margin: 0 calc(50%) 0 0;
     padding: 24px 0;
   }
 
