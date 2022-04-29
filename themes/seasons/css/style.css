@@ -195,6 +195,12 @@ th {
     margin-bottom: 18px;
     box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
   }
+  .show #primary > .element-set {
+    padding: 0;
+    margin: 0;
+  }
+
+
   .show #primary > div > *:first-child, .show #content #sidebar > div > *:first-child {
     margin-top: 0;
   }
@@ -1636,11 +1642,6 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     background-color: #708559;
     color:#666666
     }
-
-  .summer #content > .element-set {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
 
   .summer #dublin-core-title{
     display: none;
