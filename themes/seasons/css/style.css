@@ -425,7 +425,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     /* max-width: calc(100% - 16px); */
     height: auto;
     vertical-align: top;
-    /* margin: 0 calc(10%) 0 0; */
+    margin: 0 calc(10%) 0 0;
 }
 
 #stories {
@@ -2108,7 +2108,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
   }
 
   #site-title {
-    /* width: 66.1016949153%; */
+    width: 99%;
     float: left;
     margin-right: 1.6949152542%;
     display: inline;
