@@ -425,8 +425,14 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     max-width: calc(100% - 16px);
     height: auto;
     vertical-align: top;
-    margin: auto;
-  }
+    /* margin: 0 calc(10%) 0 0; */
+}
+
+#stories {
+  max-width: 600px;
+  margin: 30px 0 0 0;
+  width: 100%;
+}
 
   #site-title-2 {
     /* float: right; */
