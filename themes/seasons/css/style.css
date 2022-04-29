@@ -1649,13 +1649,13 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color: #13BBBB;
   }
   .summer a:link {
-    color: #9ecdb2;
+    color: #3D9991;
   }
   .summer a:visited {
-    color: #992640;
+    color: #3D9991;
   }
   .summer a:hover, .summer a:active, .summer a:focus {
-    color: #FF0000;
+    color: #3D9991;
   }
   .summer header {
     background-color: #99876F;
@@ -1711,7 +1711,7 @@ nav.pagination .pagination_list .pagination_previous a:after, nav.pagination .pa
     color: #9ecdb2;
   }
   .summer #content > h1 {
-    color: #708559;
+    color: #3D9991;
   }
   .summer #content h2 {
     border-color: #9ecdb2;
