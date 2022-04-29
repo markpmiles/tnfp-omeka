@@ -4,7 +4,7 @@
 
         <div id="custom-footer-text">
             <?php if ( $footerText = get_theme_option('Footer Text') ): ?>
-            <p><img src="/files/theme_uploads/HmTN_Logo_2Color_RGB_Web.jpg" style="width: 100px;">
+            <p><img src="/files/theme_uploads/HmTN_Logo_2Color_RGB_Web.jpg" style="width: 100px; float: right; padding: 0 20px 20px 0;">
             <?php echo $footerText; ?></p>
             <?php endif; ?>
             <?php if ((get_theme_option('Display Footer Copyright') == 1) && $copyright = option('copyright')): ?>
