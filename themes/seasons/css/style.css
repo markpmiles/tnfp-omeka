@@ -199,8 +199,11 @@ th {
     padding: 0;
     margin: 0;
     border-style: none !important;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    box-shadow: none !important;
+  }
+  .show #primary > .item-file.image-jpeg {
+    box-shadow: none !important;
   }
 
 
