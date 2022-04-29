@@ -9,7 +9,7 @@
             <?php if ((get_theme_option('Display Footer Copyright') == 1) && $copyright = option('copyright')): ?>
                 <p><?php echo $copyright; ?></p>
             <?php endif; ?>
-            <img src="/files/theme_uploads/HmTN_Logo_2Color_RGB_Web.jpg">
+            <img src="/files/theme_uploads/HmTN_Logo_2Color_RGB_Web.jpg" style="width: 100px;">
         </div>
 
         <!-- <p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p> -->
